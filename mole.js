@@ -3,7 +3,7 @@ let gameOver = false;
 let currTiles = [];
 
 const palavras = [
-    ["exceção", "excessão"], ["ansioso", "ancioso"], ["subsídio", "subcídio"], ["paralisado", "paralizado"],
+    ["exceção", "excessão"], ["ansioso", "ancioso"], ["paralisado", "paralizado"],
      ["licença", "licensa"], ["descanso", "descanço"], ["cansaço", "cançaço"], ["ascensão", "ascenção"], 
      ["incomodar", "encomodar"], ["estender", "extender"], ["com certeza", "concerteza"], 
      ["de repente", "derrepente"], 
@@ -12,13 +12,13 @@ const palavras = [
       ["jeito", "geito"], ["bege", "beje"], ["quis", "quiz"], ["abstrato", "abistrato"],
        ["acessório", "acessorio"], ["aceitar", "asseitar"], ["açúcar", "açucar"], ["amizade", "amizadi"], 
        ["análise", "análize"], ["aprender", "apreender"], 
-      ["assistência", "asistência"], ["atendimento", "atendemento"], ["audácia", "audacía"],
+      ["assistência", "asistência"],["audácia", "audacía"],
        ["biscoito", "bixcoito"], ["celebrar", "selibrar"], ["chocolate", "xocolate"], 
        ["decepcionar", "desepcionar"], ["exceção", "exessão"], ["família", "familia"],
         ["gramática", "gramatica"], ["hospital", "ospital"], ["impressionante", "imprecionante"],
          ["interessante", "enteressante"], ["jardineiro", "jardinero"], ["legível", "legivel"], 
-         ["melancolia", "melancolia"], ["ocasião", "ocassião"], ["organização", "organição"], 
-      ["pássaro", "passaro"], ["qualidade", "qualidade"], ["responsável", "responsavel"]
+        ["ocasião", "ocassião"], ["organização", "organição"], 
+      ["pássaro", "passaro"], ["responsável", "responsavel"]
 ];
 
 window.onload = function() {
